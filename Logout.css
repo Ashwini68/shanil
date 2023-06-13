@@ -1,0 +1,38 @@
+.bg-div {
+    background: #00A398;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container_logout {
+    width: 600px;
+    height: 350px;
+    background-color: white;
+  }
+  
+  .h6_logout{
+    position: absolute;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 160px;
+    /* margin: 200px; */
+  }
+  
+  .btn-login {
+    width: 200px;
+    height: 70px;
+    border: none;
+    background: #00A398;
+    align-items: center;
+    color: white;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 200px;
+  }

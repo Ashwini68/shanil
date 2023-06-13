@@ -1,0 +1,30 @@
+.Rectangle12{
+    position: absolute;
+width: 1280px;
+height: 40px;
+left: 0px;
+top: 870px;
+background: #00A39B;
+}
+
+.footer_contentt{
+    position: absolute;
+width: 291px;
+height: 16px;
+left: 15px;
+top: 880px;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+
+.footer_atos{
+    position: absolute;
+left: 1193px;
+top: 880px;
+
+}
