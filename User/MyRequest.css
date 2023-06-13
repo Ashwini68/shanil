@@ -1,0 +1,209 @@
+.view-myrequest-whole-screen {
+    margin-top: 80px;
+}
+
+.myrequest-heading {
+    position: absolute;
+    width: 234px;
+    height: 47px;
+    margin-left: 10px;
+    margin-top: -75px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.myrequest-title{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -35px;
+    font-family: 'IBM Plex Sans';
+    color: #00A39B;
+
+}
+
+.view-myrequest-whole-screen span {
+    margin-top: 80px;
+    position: absolute;
+    width: 170px;
+    height: 18px;
+    left: 119px;
+    top: 67px;
+    /* font-family: 'IBM Plex Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #20263C;
+}
+
+.extend-myrequest-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 15px;
+    gap: 10px;
+    position: absolute;
+    width: 190px;
+    height: 39px;
+    margin-left: 750px;
+    margin-top: -40px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #979598;
+    border-radius: 10px;
+}
+
+.extend-myrequest-button:hover {
+cursor: pointer;
+border: 2px solid black;
+margin-left: 3px;
+}
+
+.extend-myrequest-img{
+    width: 17px;
+    height: 17px;
+}
+
+.new-myrequest-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 215px;
+    height: 41px;
+    margin-left: 950px;
+    margin-top: -40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background: #00A39B;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.new-myrequest-button:hover{
+    cursor: pointer;
+    margin-left: 3px;
+    border: 2px solid #00A39B;
+}
+
+.myrequest-table {
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 560px;
+    width: 1156px;
+    /* border: 1px solid gray; */
+    border-radius: 8px;
+}
+
+.myrequest-table thead {
+    width: 100%;
+}
+
+.myrequest-table thead td {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    width: 1%;
+    height: 38px;
+    border-right: 1px silver solid;
+    background-color: #fbebeb;
+}
+
+.myrequest-table thead tr {
+    border-right: 1px solid silver; 
+    border-bottom: 1px solid silver ;
+}
+
+.myrequest-table tbody td {
+    border-right: 1px silver solid;
+    font-size: 12px;
+    height: 38px;
+    border-bottom: 1px solid silver;
+    text-align: center;
+}
+
+.myrequest-table tbody tr {
+    border-right: 1px silver solid;
+}
+
+.myrequest-edit-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 6px;
+    position: absolute;
+    width: 51px;
+    height: 30px;
+    /* left: 856px;
+    top: 145px; */
+    margin-top: -12px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    background: #FFFFFF;
+    /* border: 1px solid #979598; */
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.myrequest-edit-button:hover {
+    /* color: #FF5269; */
+    color: green;
+    margin-left: 12px;
+}
+
+.myrequest-edit-img {
+    width: 14px;
+    height: 14px;
+}
+
+.myrequest-delete-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 6px;
+    position: absolute;
+    width: 71px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: 10px;
+    /* left: 856px;
+    top: 145px;*/
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    /* border: 1px solid #979598; */
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.myrequest-delete-button:hover {
+    /* color: #FF5269; */
+    color: red;
+    margin-left: 12px;
+}
+
+.myrequest-edit-button-column {
+    border-right: none;
+}

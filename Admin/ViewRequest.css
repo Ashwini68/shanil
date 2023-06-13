@@ -1,0 +1,329 @@
+.view-request-whole-screen {
+    margin-top: 80px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 70px; */
+}
+
+.request-heading {
+    position: absolute;
+    width: 234px;
+    height: 47px;
+    left: 10px;
+    top:-60px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 47px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.view-request-whole-screen span {
+    margin-top: 80px;
+    position: absolute;
+    width: 170px;
+    height: 18px;
+    left: 119px;
+    top: 67px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    line-height: 18px;
+
+    color: #20263C;
+}
+
+.total-request {
+    position: absolute;
+    width: 133px;
+    height: 26px;
+    left: 450px;
+    top: -45px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.total-request-logo1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 54px;
+    height: 30px;
+    left: 570px;
+    top: -45px;
+    background: #F5FCFF;
+    border: 1px solid #98CBE1;
+    border-radius: 7px;
+    color: #008FCC;
+}
+
+.request-middle-line-1 {
+    position: absolute;
+    width: 0px;
+    height: 35px;
+    left: 635px;
+    top: -45px;
+
+    border: 1px solid #20263C;
+}
+
+.approved-request {
+    position: absolute;
+    width: 163px;
+    height: 26px;
+    left: 640px;
+    top: -45px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.approved-request-logo1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 800px;
+    top: -45px;
+    background: #F9FFEE;
+    border: 1px solid #A0E688;
+    border-radius: 7px;
+    color: #35CC00;
+
+}
+
+.request-middle-line-2 {
+    position: absolute;
+    width: 0px;
+    height: 35px;
+    left: 850px;
+    top: -45px;
+    border: 1px solid #20263C;
+}
+
+.request-denied {
+    position: absolute;
+    width: 133px;
+    height: 26px;
+    left: 855px;
+    top: -45px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.request-denied-logo1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 920px;
+    top: -45px;
+    background: #FFF3F3;
+    border: 1px solid #EEBCBC;
+    border-radius: 7px;
+    color: #FF5269;
+
+}
+
+.request-middle-line-3 {
+    position: absolute;
+    width: 0px;
+    height: 35px;
+    left: 970px;
+    top: -45px;
+    border: 1px solid #20263C;
+}
+
+.request-pending-approvals {
+    position: absolute;
+    width: 133px;
+    height: 26px;
+    left: 975px;
+    top: -45px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.request-pending-approvals-logo1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 1100px;
+    top: -45px;
+    background: #FFF4F4;
+    border: 1px solid #F0B0B0;
+    border-radius: 7px;
+    color: #FF5269;
+}
+
+.view-request-history-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 9px;
+    position: absolute;
+    width: 171px;
+    height: 37px;
+    left: 750px;
+    top: 15px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #979598;
+    border-radius: 10px;
+}
+
+.view-request-history-button:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 2px;
+} 
+
+.download-request-reports-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    position: absolute;
+    width: 200px;
+    height: 37px;
+    left: 945px;
+    top: 15px;
+font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #979598;
+    border-radius: 10px;
+}
+
+.download-request-reports-button:hover{
+    border: 2px solid black;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.view-table {
+    margin-top: 75px;
+   margin-left: 10px;
+    height: 560px;
+    width: 1156px; 
+    border-radius: 8px;
+}
+
+.view-table thead{
+    width: 100%;
+}
+
+.view-table thead td{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    width: 600px;
+    border-right: 1px silver solid;
+    background-color: #fbebeb;
+    height: 50px;
+    
+}
+
+.view-table tbody td{
+    border-right: 1px silver solid;
+    font-size: 12px;
+    border-bottom:1px solid silver;
+    text-align: center;
+    height: 40px;
+}
+
+.view-table tbody tr{
+    border-right: 1px silver solid;
+}
+
+.edit-button2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px ;
+    gap: 6px;
+    position: absolute;
+    width: 51px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.edit-button2:hover{
+   color: green;
+ margin-left: 12px;
+}
+
+.edit-img{
+    width: 14px;
+    height: 14px;
+}
+
+.delete-button2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px ;
+    gap: 6px;
+    position: absolute;
+    width: 71px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.delete-button2:hover{
+    color: red;
+    margin-left: 12px;
+ }
+
+ .edit-button-column{
+border-right: none;
+ }

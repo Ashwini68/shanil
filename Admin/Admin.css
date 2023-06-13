@@ -1,0 +1,115 @@
+
+  .admin-db-grid-container {
+    position: absolute;
+    display: flex;
+    row-gap: 0px;
+    margin-left: 20px;
+    padding: 15px;
+    margin-top: 60px;
+    width: 768px;
+    flex-wrap:wrap;
+  
+  } 
+  
+  .admin-db-btn-visit-inventory{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 340px;
+    margin-left : 790px;
+    height: 45px;
+    width: 220px;
+    background: #2AA5FE;
+    border-radius: 10px;
+    border: none;
+    font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: white;
+  padding-left: 50px;
+  padding-top: 10px;
+  background-image: url('../Admin/Images1/vector.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 19px 10px;
+  }
+  
+  .admin-db-btn-view-requests{
+    position: absolute;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top: 400px;
+    margin-left: 790px;
+    height: 45px;
+    width: 220px;
+    background: #2AA5FE;
+    border-radius: 10px;
+    border: none;
+    font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: white;
+  padding-left: 50px;
+  padding-top: 10px;
+  background-image: url('../Admin/Images1/view_request.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 19px 10px;
+  }
+  
+  
+  .admin-db-search{
+    position: relative;
+    left: 700px;
+    top:4px ;
+    font-size: 13px;
+  }
+
+  .admin-db-calender-mui{
+    position: absolute;
+    margin-top: 0px; 
+    margin-left: 760px;
+    width: 302px;
+    height: 250px;
+
+  }
+  
+  .admin-db-h-dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-size: 25px;
+  }
+  .admin-db-input-search-field{
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 35px;
+    margin-top: -25px ;
+    margin-left: 760px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url(./Images1/search.png);
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  .admin-db-p-today{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:40px;
+    margin-top:-20px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+  }

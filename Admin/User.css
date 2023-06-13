@@ -1,0 +1,125 @@
+.user-dashboard{
+    margin-left: -110px;
+}
+
+.user-db-btn-request-asset {
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    height: 50px;
+    margin-left: 900px;
+    margin-top: -170px;
+    background: #00A39B;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 15px;
+    background-image: url(./Images1/requestAssest.png);
+    background-repeat: no-repeat;
+    background-position: 20px 14px; 
+    background-size: 24px;
+}
+
+.user-db-btn-my-request {
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    height: 50px;
+    margin-left: 900px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top:10px ;
+    background-image: url(./Images1/MarkView.png);
+    background-repeat: no-repeat;
+    background-position: 20px 12px; 
+    background-size: 24px;
+}
+
+.user-db-search{
+    position: relative;
+    left: 800px;
+    top:5px ;
+    font-size: 13px;
+    
+}
+
+.user-db-h-dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-size: 25px;
+}
+.user-db-p-today{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:140px;
+    margin-top:0px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-db{
+    margin-top: 280px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px; 
+}
+
+.user-db-my-request-status
+{
+    margin-top: -365px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+}
+.user-db-time{
+
+    margin-top: -200px;
+    margin-left: 580px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-db-input-search-field{
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 35px;
+    margin-top: -25px ;
+    margin-left: 870px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url(./Images1/search.png);
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.user-db-calender-mui{
+    position: absolute;
+    margin-top: -490px;
+    margin-left: 850px;
+    width: 302px;
+    height: 250px;
+
+}

@@ -1,0 +1,46 @@
+.my-request-status{
+    color: #00A39B;
+}
+.body2{
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 38px;
+line-height: 49px;
+}
+
+
+.btn-cancel-request{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 410px;
+    top: 440px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(../Admin/Images1/cancel_request.png);
+    background-repeat: no-repeat;
+    background-position: 5px 7px; 
+    background-size: 30px;
+    background-position: 9px 6.5px;
+    padding-left: 20px;
+}
+
+.btn-extend-request{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 350px;
+    top: 500px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(../Admin/Images1/extend_request.png);
+    background-repeat: no-repeat;
+    background-position: 10px 6.5px; 
+    background-size: 24px;
+    padding-left: 20px;
+    
+}
+

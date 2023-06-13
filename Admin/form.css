@@ -1,0 +1,76 @@
+/* form.css */
+
+label {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    width: 480px;
+    height: 48px;
+  }
+  
+  input {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 8px;
+    width: 300px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 8px;
+  }
+  
+  select {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 8px;
+    width: 300px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 8px;
+    color: #333333;
+    font-size: 16px;
+  }
+  .title{
+    position: absolute;
+width: 161px;
+height: 47px;
+left: 118px;
+top: 124px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #000000;
+  }
+  
+  /* Additional styling for select dropdown arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888888;
+    pointer-events: none;
+  }
+  
+  /* Styling for select options */
+  select option {
+    background: #FFFFFF;
+    color: #333333;
+  }
+  

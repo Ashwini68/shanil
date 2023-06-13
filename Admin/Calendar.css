@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    position: absolute;
+    width: 230px;
+    /* height: 150px; */
+    background: #fff;
+    margin-top: 150px;
+    border-radius: 8px;
+    margin-left: 900px;
+}
+
+.wrapper header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 10px;
+    justify-content: space-between;
+}
+
+header .current-date {
+    font-size: 1.20rem;
+    font-weight: 500;
+    position: relative;
+    top: -28px;
+    left: 12px;
+
+}
+
+header .icons span {
+    height: 30px;
+    width: 38px;
+    color: #878787;
+    font-size: 1.9rem;
+    margin: 10 10px;
+    cursor: pointer;
+    line-height: 38px;
+    border-radius: 150px;
+    /* background: #f2f2f2; */
+    /* margin-top: 20px; */
+}
+.next span{
+    /* margin-top: 20px; */
+    margin-top: 20px;
+}
+
+.calendar {
+     position: relative;
+    margin-top: -40px;
+
+}
+
+.calendar ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: -25px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+  
+
+}
+
+.calendar .weeks li {
+
+    font-weight: 200;
+    font-size: 13px;
+    /* width: 26px; */
+
+}
+
+.calendar ul li {
+    position: relative;
+    width: calc(100%/7);
+    /* width: 20px; */
+}
+
+.calendar .days li {
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.days li.inactive {
+    color: #aaa;
+}
+
+.days li.active {
+    color: #7deccb;
+}
+.calendar .days li::before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 50px;
+    top: 53%;
+    left: 50%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.days li:hover::before {
+    background: #d8d8d8;
+    width: 25px;
+    height: 25px;
+}
+
+.days li.active::before {
+    background: violet;
+}
+
+.button_previous{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -38px;
+    left: -29px;
+    border: none;
+    font-size: large;
+    font-weight: 400;
+    color: black;
+    background-color: #fff;
+}
+.button_next{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -38px;
+    left: 0px;
+    border: none;
+
+    font-size: large;
+    font-weight: 400;
+    color: black;
+    background-color: #fff;
+}

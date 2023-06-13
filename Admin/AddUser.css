@@ -1,0 +1,36 @@
+.add-user{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-div {
+  /* display: flex;
+    flex-direction: column; */
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+    position: absolute;
+    left: 550px; 
+    top: 400px; 
+    transform: translate(-50%, -50%); 
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+  }
+  
+  p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    position: absolute;
+    top: -70px;
+    left: -95px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
